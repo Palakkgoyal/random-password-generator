@@ -28,5 +28,5 @@ function copyToClipboard(passNum) {
         text = passEl2.textContent
     }
     
-    navigator.clipboard.writeText(text)
+    navigator.clipboard.writeText(text) // only work with https otherwise throws error
 }
