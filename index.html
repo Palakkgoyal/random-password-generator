@@ -1,0 +1,21 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Generate a <br/><span class="title-highlight">random password</span></h1>
+            <h3 class="sub-title">Never use an insecure password again.</h3>
+            
+            <button class="btn" onclick="generatePass()">Generate passwords</button>
+            
+            <div class="break"></div>
+            
+            <div class="pass-container">
+                <button class="password" id="pass1" onclick="copyToClipboard(1)"></button>
+                <button class="password" id="pass2" onclick="copyToClipboard(2)"></button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
